@@ -1,4 +1,7 @@
 name: sphinx
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - alabaster=0.7.12
   - babel=2.9.1
