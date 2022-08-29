@@ -16,4 +16,4 @@ conda:
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
-   configuration: conf.py
+   configuration: zh/conf.py
