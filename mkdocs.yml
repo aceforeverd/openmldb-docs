@@ -1,0 +1,14 @@
+site_name: OpenMLDB docs
+plugins:
+  - search:
+
+markdown_extensions:
+  - smarty
+  - toc:
+      permalink: True
+  - sane_lists
+
+theme:
+    name: material
+    logo: zh/about/images/openmldb_logo.png
+    favicon: zh/about/images/openmldb_favicon.png
