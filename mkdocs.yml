@@ -8,7 +8,20 @@ markdown_extensions:
       permalink: True
   - sane_lists
 
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+
 theme:
     name: material
     logo: zh/about/images/openmldb_logo.png
     favicon: zh/about/images/openmldb_favicon.png
+    features:
+      - navigation.tabs
+      - navigation.top
+      - navigation.indexes
