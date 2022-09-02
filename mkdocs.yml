@@ -10,18 +10,19 @@ markdown_extensions:
 
 extra:
   alternate:
-    - name: English
-      link: /en/
-      lang: en
     - name: 中文
       link: /zh/
       lang: zh
+    - name: English
+      link: /en/
+      lang: en
+
+docs_dir: docs/zh/
 
 theme:
     name: material
-    logo: zh/about/images/openmldb_logo.png
-    favicon: zh/about/images/openmldb_favicon.png
+    logo: about/images/openmldb_logo.png
+    favicon: about/images/openmldb_favicon.png
     features:
-      - navigation.tabs
       - navigation.top
       - navigation.indexes
